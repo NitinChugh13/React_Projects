@@ -5,7 +5,7 @@ import './App.css'
 
 function App() {
   // using hook declare the variable 
-  const [counter , setCount] = useState(15); 
+ const[counter , setCount]= useState(15);
 
   // let counter = 15; leads to unpredictable behavious at ui 
   const IncreaseVal = ()=>{
